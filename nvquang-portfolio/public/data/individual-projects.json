@@ -4,7 +4,7 @@
     "skills": "Data cleaning, Data analysis, Data visualization",
     "category": "Data analytics",
     "description": {
-      "overall": "Waze’s free navigation app makes it easier for drivers around the world to get to where they want to go. In this project, I try to figure out why the application is having churn users and how to prevent them",
+      "overall": "Waze’s free navigation app makes it easier for drivers around the world to get to where they want to go. In this project, I try to figure out why the application is having churn users and how to prevent them.",
       "do": "From the available data provided, I cleaned and transformed it with Pandas, Numpy, then I visualized data (seaborn, matplotlib) and use exploratory data analysis technique to understand the data more and find out patterns and differences of churn users and normal users.",
       "result": ""
     },

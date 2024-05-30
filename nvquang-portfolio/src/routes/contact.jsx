@@ -16,7 +16,7 @@ function Contact() {
         <div className="px-16 py-3">
           <div className="flex my-2">
             <img
-              src="../src/assets/phone-logo.png"
+              src="../nvquang-portfolio/src/assets/phone-logo.png"
               alt=""
               className="w-8 h-auto mr-2 rounded"
             />
@@ -24,7 +24,7 @@ function Contact() {
           </div>
           <div className="flex mb-2">
             <img
-              src="../src/assets/linkedin-logo.png"
+              src="../nvquang-portfolio/src/assets/linkedin-logo.png"
               alt=""
               className="w-8 h-auto mr-2"
             />
@@ -41,7 +41,7 @@ function Contact() {
           </div>
           <div className="flex mb-2">
             <img
-              src="../src/assets/mail-logo.png"
+              src="../nvquang-portfolio/src/assets/mail-logo.png"
               alt=""
               className="w-8 h-auto mr-2 rounded"
             />
