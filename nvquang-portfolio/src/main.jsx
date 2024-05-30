@@ -11,19 +11,19 @@ import Footer from "./components/Footer.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/nvquang-portfolio/",
     element: <Root />,
   },
   {
-    path: "/contact",
+    path: "/nvquang-portfolio/contact",
     element: <Contact />,
   },
   {
-    path: "/about",
+    path: "/nvquang-portfolio/about",
     element: <About />,
   },
   {
-    path: "/projects",
+    path: "/nvquang-portfolio/projects",
     element: <Projects />,
   },
 ]);
