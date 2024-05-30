@@ -7,7 +7,10 @@ const ProjectBox = ({ name, description, img_src, time }) => {
         <img src={img_src} className="h-1/2 mx-auto my-2 rounded-lg" />
       )}
       <div className="flex  pl-3 pr-5 justify-between">
-        <a href="/projects" className="text-xl font-semibold block">
+        <a
+          href="/nvquang-portfolio/projects"
+          className="text-xl font-semibold block"
+        >
           {name}
         </a>
         <p>{time}</p>
