@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "../App.css";
+import phoneLogo from "../assets/phone-logo.png";
+import linkedInLogo from "../assets/linkedin-logo.png";
+import mailLogo from "../assets/mail-logo.png";
 
 function Contact() {
   return (
@@ -15,19 +18,11 @@ function Contact() {
         </p>
         <div className="px-16 py-3">
           <div className="flex my-2">
-            <img
-              src="/nvquang-portfolio/src/assets/phone-logo.png"
-              alt=""
-              className="w-8 h-auto mr-2 rounded"
-            />
+            <img src={phoneLogo} alt="" className="w-8 h-auto mr-2 rounded" />
             <p className="my-auto">Phone/Zalo: +84707 649 659</p>
           </div>
           <div className="flex mb-2">
-            <img
-              src="/nvquang-portfolio/src/assets/linkedin-logo.png"
-              alt=""
-              className="w-8 h-auto mr-2"
-            />
+            <img src={linkedInLogo} alt="" className="w-8 h-auto mr-2" />
             <p className="my-auto">
               LinkedIn:{" "}
               <a
@@ -40,11 +35,7 @@ function Contact() {
             </p>
           </div>
           <div className="flex mb-2">
-            <img
-              src="/nvquang-portfolio/src/assets/mail-logo.png"
-              alt=""
-              className="w-8 h-auto mr-2 rounded"
-            />
+            <img src={mailLogo} alt="" className="w-8 h-auto mr-2 rounded" />
             <p className="my-auto">Mail: nvquang10712@gmail.com</p>
           </div>
         </div>
