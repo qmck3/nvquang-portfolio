@@ -8,9 +8,7 @@ function Projects() {
   useEffect(() => {
     const fetchIndividualProjects = async () => {
       try {
-        const response = await fetch(
-          "/nvquang-portfolio/data/individual-projects.json"
-        );
+        const response = await fetch("./data/individual-projects.json");
         const jsonIndividualProjects = await response.json();
         setIndividualProjects(jsonIndividualProjects);
       } catch (error) {
@@ -27,9 +25,7 @@ function Projects() {
   useEffect(() => {
     const fetchGroupProjects = async () => {
       try {
-        const response = await fetch(
-          "/nvquang-portfolio/data/group-projects.json"
-        );
+        const response = await fetch("./data/group-projects.json");
         const jsonGroupProjects = await response.json();
         setGroupProjects(jsonGroupProjects);
       } catch (error) {

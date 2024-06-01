@@ -62,7 +62,7 @@ function Root() {
         </div>
         <div className="flex flex-col items-center">
           <a
-            href="/nvquang-portfolio/projects"
+            href="./projects"
             className="bg-neutral-300 rounded font-semibold border-double border-white px-8 py-3 my-5 block"
           >
             See more
