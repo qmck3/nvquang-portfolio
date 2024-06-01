@@ -15,15 +15,15 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/nvquang-portfolio/contact",
+    path: "./contact",
     element: <Contact />,
   },
   {
-    path: "/nvquang-portfolio/about",
+    path: "./about",
     element: <About />,
   },
   {
-    path: "/nvquang-portfolio/projects",
+    path: "./projects",
     element: <Projects />,
   },
 ]);
