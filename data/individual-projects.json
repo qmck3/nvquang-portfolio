@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Analyze churn users Waze",
+    "skills": "Data cleaning, Data analysis, Data visualization",
+    "category": "Data analytics",
+    "description": {
+      "overall": "Waze’s free navigation app makes it easier for drivers around the world to get to where they want to go. In this project, I try to figure out why the application is having churn users and how to prevent them.",
+      "do": "From the available data provided, I cleaned and transformed it with Pandas, Numpy, then I visualized data (seaborn, matplotlib) and use exploratory data analysis technique to understand the data more and find out patterns and differences of churn users and normal users.",
+      "result": ""
+    },
+    "img_src": "",
+    "time": "4/2024 - present",
+    "link": "#"
+  },
+  {
+    "name": "Cyclistics Bike-share",
+    "skills": "Data analysis, Data visualization",
+    "category": "Data analytics",
+    "description": {
+      "overall": "Analyzing user behavior to understand the differences between casual riders and annual members. This analysis aimed to inform the development of a new marketing strategy focused on converting casual riders into annual members.",
+      "do": "From the available data provided by Google, I cleaned and transformed the data then analyzed and visualized data to find insights. I used Python and Tableau for this project.",
+      "result": ""
+    },
+    "img_src": "",
+    "time": "7/2023 - 8/2023",
+    "link": "https://github.com/qmck3/Cyclistics-Bike-share-Data-analysis"
+  },
+  {
+    "name": "Coffee Shop Business Dashboard",
+    "skills": "Data visualization",
+    "category": "Data analytics",
+    "description": {
+      "overall": "With an available dataset from Github, I builded an operational dashboard to manage sales of a coffee shop using Excel pivot table.",
+      "do": "",
+      "result": ""
+    },
+    "img_src": "",
+    "time": "9/2023",
+    "link": "https://github.com/qmck3/Coffee-Shop-Business-Dashboard"
+  }
+]
