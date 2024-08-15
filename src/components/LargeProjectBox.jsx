@@ -3,7 +3,8 @@ import React from "react";
 const LargeProjectBox = ({
   name,
   description,
-  img_src,
+  img_src1,
+  img_src2,
   skills,
   category,
   participants,
@@ -15,13 +16,23 @@ const LargeProjectBox = ({
       <p className="text-xl font-bold">{name}</p>
       <div className="px-3">
         {participants != null && <p>Participants: {participants}</p>}
-        {/* {img_src != null && (
-          <img src={img_src} className="h-1/2 mx-auto my-2 rounded-lg" />
-        )} */}
         <p>{description.overall}</p>
         <p>{description.do}</p>
         <p>{description.result}</p>
+        {img_src1 != null && (
+          <div className="flex ">
+            <img
+              src={img_src1}
+              className="basis-1/2 h-1/2 mx-auto my-2 rounded-lg"
+            />
+            <img
+              src={img_src2}
+              className="basis-1/2 h-1/2 mx-auto my-2 rounded-lg"
+            />
+          </div>
+        )}
         <br />
+
         {link != "#" && (
           <a href={link} className="text-cyan-700" target="_blank">
             See detail

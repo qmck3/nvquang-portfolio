@@ -55,7 +55,8 @@ function Projects() {
             description={element.description}
             time={element.time}
             link={element.link}
-            img_src={element.img_src}
+            img_src1={element.img_src1}
+            img_src2={element.img_src2}
           ></LargeProjectBox>
         ))}
         <hr className="w-5/12 mx-auto mt-8 border-1 border-stone-100" />
@@ -70,7 +71,8 @@ function Projects() {
             description={element.description}
             time={element.time}
             link={element.link}
-            img_src={element.img_src}
+            img_src1={element.img_src1}
+            img_src2={element.img_src2}
           ></LargeProjectBox>
         ))}
         {/* <hr className="w-5/12 mx-auto mt-8 border-1 border-stone-100" /> */}
