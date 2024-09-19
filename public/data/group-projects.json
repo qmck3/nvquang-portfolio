@@ -9,8 +9,8 @@
       "do": "My job was to design database to store data and analyze, visualize the end-user dashboard using PowerBI.",
       "result": ""
     },
-    "img_src1": "nvquang-portfolio/public/youtube_video_analysis_2.png",
-    "img_src2": "../../public/youtube_video_anaysis_2.png",
+    "img_src1": "../public/youtube_video_analysis_2.png",
+    "img_src2": "../public/youtube_video_analysis_1.png",
     "time": "1/2024 - 4/2024",
     "link": "https://drive.google.com/drive/folders/1M-3svN-JoH3E1-cQaqDVII_oVTMJ_Jcc"
   },

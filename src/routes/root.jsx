@@ -4,22 +4,40 @@ import background_1 from "../../public/background-2.png";
 import ProjectBox from "../components/ProjectBox.jsx";
 
 function Root() {
-  const tempProjectData = [
+  //mock data
+  let Projects = [
+    {
+      name: "Youtube videos analysis",
+      description:
+        "Analyze videos and channels with collected data from Youtube",
+      img_src: "./public/youtube_video_analysis_2.png",
+      time: "Jan 2024 - Apr 2024",
+    },
     {
       name: "Cyclistics Bike-share",
-      time: "3/2024 - present",
-      img_src: "",
-      description:
-        "Waze’s free navigation app makes it easier for drivers around the world to get to where they want to go. In this project, I try to figure out why the application is having churn users and how to prevent them.",
-    },
-    {
-      name: "Youtube Videos Analysis",
-      time: "1/2024 - 4/2024",
-      img_src: "",
-      description:
-        "Crawl data from YouTube(through API) to analyze features of different videos segments, find patterns of trending videos and build an operational dashboard for end-users to analyze the data further",
+      description: "Analyze pattern of premium user vs normal user",
+      img_src: "./public/cyclistic_bike_share_1.png",
+      time: "July 2023 - Aug 2023",
+      link: "https://drive.google.com/drive/folders/1M-3svN-JoH3E1-cQaqDVII_oVTMJ_Jcc",
     },
   ];
+
+  //get data
+  // const [Projects, setProjects] = useState([]);
+
+  // useEffect(() => {
+  //   const fetchProjects = async () => {
+  //     try {
+  //       const response = await fetch("../data/show-projects.json");
+  //       const jsonProjects = await response.json();
+  //       setProjects(jsonProjects);
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error);
+  //     }
+  //   };
+
+  //   fetchProjects();
+  // }, []);
 
   return (
     <div>
@@ -28,7 +46,7 @@ function Root() {
         className="w-500 h-300 bg-cover bg-center"
         style={{ backgroundImage: `url(${background_1})` }}
       >
-        <div className="py-36 text-center text-white w-5/12 mx-auto">
+        <div className="py-36 text-center text-white w-7/12 mx-auto">
           <h1 className="text-3xl font-bold">Hi, I'm Quang</h1>
           <p className="py-4">
             Entry level data analyst with proven expertise in data collection,
@@ -48,9 +66,8 @@ function Root() {
           Projects
         </p>
         <hr className="mx-auto w-5/12 mb-8" />
-        <div className="flex">
-          <div className="basis-1/12"></div>
-          {tempProjectData.map((element) => (
+        <div className="flex justify-center">
+          {Projects.map((element) => (
             <ProjectBox
               name={element.name}
               time={element.time}
@@ -58,7 +75,6 @@ function Root() {
               img_src={element.img_src}
             ></ProjectBox>
           ))}
-          <div className="basis-1/12"></div>
         </div>
         <div className="flex flex-col items-center">
           <a
