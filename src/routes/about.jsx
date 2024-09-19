@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="text-white">
       <div className="bg-gradient-to-r from-cyan-950 to-slate-950 py-10 w-full">
-        <p className="text-center text-4xl text-white font-bold">ABOUT</p>
+        <p className="text-center text-4xl font-bold">ABOUT</p>
       </div>
       <div className="w-11/12 mx-auto my-8 px-5 rounded-lg">
         <p className="text-4xl font-semibold mb-3">Background</p>

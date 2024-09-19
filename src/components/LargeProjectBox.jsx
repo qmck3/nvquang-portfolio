@@ -20,18 +20,11 @@ const LargeProjectBox = ({
         <p>{description.do}</p>
         <p>{description.result}</p>
         {img_src1 != null && (
-          <div className="flex ">
-            <img
-              src={img_src1}
-              className="basis-1/2 h-1/2 mx-auto my-2 rounded-lg"
-            />
-            <img
-              src={img_src2}
-              className="basis-1/2 h-1/2 mx-auto my-2 rounded-lg"
-            />
+          <div className="flex-col w-8/12 mx-auto">
+            <img src={img_src1} className="mx-auto my-3 rounded-lg" />
+            <img src={img_src2} className="mx-auto my-3 rounded-lg" />
           </div>
         )}
-        <br />
 
         {link != "#" && (
           <a href={link} className="text-cyan-700" target="_blank">

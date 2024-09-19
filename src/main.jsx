@@ -4,7 +4,6 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
-import Contact from "./routes/contact.jsx";
 import About from "./routes/about.jsx";
 import Projects from "./routes/projects.jsx";
 import Footer from "./components/Footer.jsx";
@@ -13,10 +12,6 @@ const router = createBrowserRouter([
   {
     path: "/nvquang-portfolio/",
     element: <Root />,
-  },
-  {
-    path: "/nvquang-portfolio/contact",
-    element: <Contact />,
   },
   {
     path: "/nvquang-portfolio/about/",

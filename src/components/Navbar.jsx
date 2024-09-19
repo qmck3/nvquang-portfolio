@@ -37,7 +37,7 @@ function Navbar() {
           <div className="basis-1/3 md:basis-1/3 mr-10 ">
             <a
               className="hover:bg-gray-600/50 rounded px-6 py-1"
-              href="/nvquang-portfolio/contact/"
+              href="#Footer"
             >
               Contact
             </a>
