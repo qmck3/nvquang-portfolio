@@ -8,7 +8,7 @@
       "do": "From the available data provided, I cleaned and transformed it with Pandas, Numpy, then I visualized data (seaborn, matplotlib) and use exploratory data analysis technique to understand the data more and find out patterns and differences of churn users and normal users.",
       "result": ""
     },
-    "img_src": "",
+    "img_src1": "",
     "time": "4/2024 - present",
     "link": "https://github.com/qmck3/waze-app-churn-rate-analysis"
   },
@@ -21,21 +21,8 @@
       "do": "From the available data provided by Google, I cleaned and transformed the data then analyzed and visualized data to find insights. I used Python and Tableau for this project.",
       "result": ""
     },
-    "img_src": "",
+    "img_src1": "../public/cyclistic_bike_share_1.png",
     "time": "7/2023 - 8/2023",
     "link": "https://github.com/qmck3/Cyclistics-Bike-share-Data-analysis"
-  },
-  {
-    "name": "Coffee Shop Business Dashboard",
-    "skills": "Data visualization",
-    "category": "Data analytics",
-    "description": {
-      "overall": "With an available dataset from Github, I builded an operational dashboard to manage sales of a coffee shop using Excel pivot table.",
-      "do": "",
-      "result": ""
-    },
-    "img_src": "",
-    "time": "9/2023",
-    "link": "https://github.com/qmck3/Coffee-Shop-Business-Dashboard"
   }
 ]
