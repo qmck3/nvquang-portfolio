@@ -9,7 +9,8 @@
       "do": "My job was to design database to store data and analyze, visualize the end-user dashboard using PowerBI.",
       "result": ""
     },
-    "img_src": "",
+    "img_src1": "../public/youtube_video_analysis_2.png",
+    "img_src2": "../public/youtube_video_analysis_1.png",
     "time": "1/2024 - 4/2024",
     "link": "https://drive.google.com/drive/folders/1M-3svN-JoH3E1-cQaqDVII_oVTMJ_Jcc"
   },
@@ -25,7 +26,7 @@
     },
     "img_src": "",
     "time": "10/2023 - 12/2023",
-    "link": "https://drive.google.com/drive/folders/1CueTAI1Xug-oCzni4ShNxaiFUq8MzNu2?usp=sharing"
+    "link": "https://drive.google.com/drive/folders/1Vwe1Rj3SBpzqGy2MJheKjxDYcU7A5qXo"
   },
   {
     "name": "Rottern Tomatoes Movie Ratings Analysis",

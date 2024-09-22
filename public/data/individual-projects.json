@@ -8,7 +8,7 @@
       "do": "From the available data provided, I cleaned and transformed it with Pandas, Numpy, then I visualized data (seaborn, matplotlib) and use exploratory data analysis technique to understand the data more and find out patterns and differences of churn users and normal users.",
       "result": ""
     },
-    "img_src1": "",
+    "img_src1": "/cyclistic_bike_share_1.png",
     "time": "4/2024 - present",
     "link": "https://github.com/qmck3/waze-app-churn-rate-analysis"
   },
