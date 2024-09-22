@@ -1,40 +1,42 @@
 import { useState, useEffect } from "react";
 import LargeProjectBox from "../components/LargeProjectBox";
+import individualProjects from "../mock_data/individualProjects";
+import groupProjects from "../mock_data/groupProjects";
 
 function Projects() {
   ///// get data for individual projects section
-  const [individualProjects, setIndividualProjects] = useState([]);
+  // const [individualProjects, setIndividualProjects] = useState([]);
 
-  useEffect(() => {
-    const fetchIndividualProjects = async () => {
-      try {
-        const response = await fetch("../data/individual-projects.json");
-        const jsonIndividualProjects = await response.json();
-        setIndividualProjects(jsonIndividualProjects);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchIndividualProjects = async () => {
+  //     try {
+  //       const response = await fetch("../data/individual-projects.json");
+  //       const jsonIndividualProjects = await response.json();
+  //       setIndividualProjects(jsonIndividualProjects);
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error);
+  //     }
+  //   };
 
-    fetchIndividualProjects();
-  }, []);
+  //   fetchIndividualProjects();
+  // }, []);
 
   ///// get data for individual projects section
-  const [groupProjects, setGroupProjects] = useState([]);
+  // const [groupProjects, setGroupProjects] = useState([]);
 
-  useEffect(() => {
-    const fetchGroupProjects = async () => {
-      try {
-        const response = await fetch("../data/group-projects.json");
-        const jsonGroupProjects = await response.json();
-        setGroupProjects(jsonGroupProjects);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchGroupProjects = async () => {
+  //     try {
+  //       const response = await fetch("../data/group-projects.json");
+  //       const jsonGroupProjects = await response.json();
+  //       setGroupProjects(jsonGroupProjects);
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error);
+  //     }
+  //   };
 
-    fetchGroupProjects();
-  }, []);
+  //   fetchGroupProjects();
+  // }, []);
 
   /////return component Projects
   return (

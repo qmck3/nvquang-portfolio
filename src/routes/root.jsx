@@ -2,26 +2,9 @@ import { useState, useEffect } from "react";
 import "../App.css";
 import background_1 from "../../public/background-2.png";
 import ProjectBox from "../components/ProjectBox.jsx";
+import showProjects from "../mock_data/showProjects.jsx";
 
 function Root() {
-  //mock data
-  let Projects = [
-    {
-      name: "Youtube videos analysis",
-      description:
-        "Analyze videos and channels with collected data from Youtube",
-      img_src: "./public/youtube_video_analysis_2.png",
-      time: "Jan 2024 - Apr 2024",
-    },
-    {
-      name: "Cyclistics Bike-share",
-      description: "Analyze pattern of premium user vs normal user",
-      img_src: "./public/cyclistic_bike_share_1.png",
-      time: "July 2023 - Aug 2023",
-      link: "https://drive.google.com/drive/folders/1M-3svN-JoH3E1-cQaqDVII_oVTMJ_Jcc",
-    },
-  ];
-
   //get data
   // const [Projects, setProjects] = useState([]);
 
@@ -67,7 +50,7 @@ function Root() {
         </p>
         <hr className="mx-auto w-5/12 mb-8" />
         <div className="flex justify-center">
-          {Projects.map((element) => (
+          {showProjects.map((element) => (
             <ProjectBox
               name={element.name}
               time={element.time}
